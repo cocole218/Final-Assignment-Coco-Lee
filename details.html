@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funky Beef | Burger Beats</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .about-grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .about-grid img {
+      flex: 1 1 300px;
+      max-width: 45%;
+      border-radius: 10px;
+    }
+
+    .about-grid div {
+      flex: 1 1 300px;
+    }
+
+    @media (max-width: 768px) {
+      .about-grid {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-grid img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Burger Beats Logo" class="logo-img">
+        </a>
+      </div>
+      <label for="menu-toggle" class="menu-icon">
+        <span class="navicon"></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#reserve" class="btn">Reserve</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Burger Details Section -->
+  <section class="menu-section">
+    <div class="about-grid">
+      <img src="img/detail1.png" alt="Funky Beef Burger">
+      <div>
+        <h2>Funky Beef</h2>
+        <p>The Funky Beef burger brings serious flavor and soul to your plate. It's a tribute to those groovy vinyl nights — juicy, bold, and unforgettable.</p>
+        <ul>
+          <li>100% Angus beef patty</li>
+          <li>Cheddar cheese</li>
+          <li>Housemade Funky BBQ sauce</li>
+          <li>Crispy fried onions</li>
+          <li>Toasted sesame brioche bun</li>
+        </ul>
+        <p><strong>Allergens:</strong> Wheat, Dairy, Eggs</p>
+        <p><strong>Price:</strong> $13.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Gallery -->
+  <section class="gallery">
+    <div class="gallery-images">
+      <img src="img/gallery1.png" alt="Gallery Image 1">
+      <img src="img/gallery2.png" alt="Gallery Image 2">
+      <img src="img/gallery3.png" alt="Gallery Image 3">
+      <img src="img/gallery4.png" alt="Gallery Image 4">
+      <img src="img/gallery5.png" alt="Gallery Image 5">
+      <img src="img/gallery6.png" alt="Gallery Image 6">
+      <img src="img/gallery7.png" alt="Gallery Image 7">
+      <img src="img/gallery8.png" alt="Gallery Image 8">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Burger Beats</h3>
+        <p>Where great food meets great music.</p>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="details.html">Details</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <p>123 Vinyl Street, Toronto, ON</p>
+        <p>(123) 456-7890</p>
+        <p>contact@burgerbeats.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Burger Beats. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

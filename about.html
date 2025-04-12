@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Burger Beats</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .about-grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .about-grid.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .about-grid img {
+      flex: 1 1 300px;
+      max-width: 45%;
+      border-radius: 10px;
+    }
+
+    .about-grid div {
+      flex: 1 1 300px;
+    }
+
+    .location-content {
+      padding: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      .about-grid {
+        flex-direction: column !important;
+        text-align: center;
+      }
+
+      .about-grid img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Burger Beats Logo" class="logo-img">
+        </a>
+      </div>
+      <label for="menu-toggle" class="menu-icon">
+        <span class="navicon"></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#reserve" class="btn">Reserve</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Our Story Section -->
+  <section class="about-section">
+    <div class="about-grid">
+      <img src="img/about1.png" alt="Burger Beats interior">
+      <div>
+        <h2>Our Story</h2>
+        <p>At Burger Beats, we believe that great food and great music create the perfect harmony. Inspired by the timeless charm of vinyl records, we’ve crafted a space where every bite is a note in a delicious melody. Our journey started with a simple mission: to serve bold, handcrafted burgers while immersing guests in an unforgettable musical atmosphere.</p>
+        <p>Like a record spinning on a turntable, each burger is made with care and precision. Whether you’re here to savor the flavors, vibe with our playlists, or <strong>“Spin Your Mood”</strong> for a surprise treat, sit back, relax, and let the rhythm take over.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="checker-line"></div>
+
+  <!-- Our Mission Section -->
+  <section class="mission-section">
+    <div class="about-grid reverse">
+      <div>
+        <h2>Our Mission</h2>
+        <ul>
+          <li><strong>Bringing People Together</strong> – A burger joint where music lovers and foodies unite.</li>
+          <li><strong>Crafting Quality Burgers</strong> – Fresh ingredients, bold flavors, and handcrafted perfection.</li>
+          <li><strong>Creating a Unique Experience</strong> – A place where every meal comes with a soundtrack.</li>
+        </ul>
+        <p>We want every visit to feel like your favorite song—something you’ll keep coming back to.</p>
+      </div>
+      <img src="img/about2.png" alt="Burger grilling on flames">
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section class="events-section">
+    <div class="about-grid">
+      <img src="img/about3.png" alt="Vinyl player DJ night">
+      <div>
+        <h2>Events & Special Nights</h2>
+        <ul>
+          <li>Live Music Nights – Enjoy performances from local bands and DJs while you dine.</li>
+          <li>Theme Nights – From Retro Vinyl Nights to Hip-Hop Burgers, each night has its own groove.</li>
+          <li>Exclusive Menu Drops – Limited-time burgers inspired by legendary music albums.</li>
+        </ul>
+        <p>Check our social media for upcoming events and special promotions!</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="checker-line"></div>
+
+  <!-- Location Section -->
+  <section class="location-section">
+    <div class="location-content">
+      <h2>Where to Find Us?</h2>
+      <p>Looking for the perfect spot to enjoy great burgers and even better vibes? Come visit us and enjoy the beats in person! Our doors are open, and the grill is always hot.</p>
+      <p><strong>Address:</strong><br>123 Vinyl Street, Toronto, ON M5V 1A1, Canada</p>
+      <p><strong>Opening Hours:</strong><br>
+        Monday – Thursday: 11:00 AM – 10:00 PM<br>
+        Friday – Saturday: 11:00 AM – 12:00 AM<br>
+        Sunday: 12:00 PM – 9:00 PM</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Burger Beats</h3>
+        <p>Where great food meets great music.</p>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="details.html">Details</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <p>123 Vinyl Street, Toronto, ON</p>
+        <p>(123) 456-7890</p>
+        <p>contact@burgerbeats.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Burger Beats. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
